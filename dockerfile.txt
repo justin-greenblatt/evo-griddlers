@@ -1,0 +1,9 @@
+FROM python:3.8-slim-buster
+
+WORKDIR /app
+
+COPY Slides Slides
+
+RUN pip3 install -r Slides/requirements.txt
+
+CMD [ "python3", "source/main.py"]

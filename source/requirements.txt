@@ -1,0 +1,2 @@
+regex==2021.4.4
+matplotlib==3.3.3
